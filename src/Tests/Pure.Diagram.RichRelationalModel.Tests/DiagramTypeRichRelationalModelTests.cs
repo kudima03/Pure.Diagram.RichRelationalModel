@@ -35,7 +35,10 @@ public sealed class DiagramTypeRichRelationalModelTests
     {
         IGuid id = new PureGuid(Guid.NewGuid());
         IString name = new PureString(id);
-        IDiagramTypeRichRelationalModel source = new DiagramTypeRichRelationalModel(id, name);
+        IDiagramTypeRichRelationalModel source = new DiagramTypeRichRelationalModel(
+            id,
+            name
+        );
 
         DiagramTypeRichRelationalModel sut = new DiagramTypeRichRelationalModel(source);
 
@@ -47,7 +50,10 @@ public sealed class DiagramTypeRichRelationalModelTests
     {
         IGuid id = new PureGuid(Guid.NewGuid());
         IString name = new PureString(id);
-        IDiagramTypeRichRelationalModel source = new DiagramTypeRichRelationalModel(id, name);
+        IDiagramTypeRichRelationalModel source = new DiagramTypeRichRelationalModel(
+            id,
+            name
+        );
 
         DiagramTypeRichRelationalModel sut = new DiagramTypeRichRelationalModel(source);
 

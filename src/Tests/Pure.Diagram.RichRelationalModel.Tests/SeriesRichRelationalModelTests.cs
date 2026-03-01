@@ -16,7 +16,12 @@ public sealed class SeriesRichRelationalModelTests
         IString label = new PureString(id);
         IString source = new PureString(diagramId);
 
-        SeriesRichRelationalModel sut = new SeriesRichRelationalModel(id, diagramId, label, source);
+        SeriesRichRelationalModel sut = new SeriesRichRelationalModel(
+            id,
+            diagramId,
+            label,
+            source
+        );
 
         Assert.Equal(id.GuidValue, sut.Id.GuidValue);
     }
@@ -29,7 +34,12 @@ public sealed class SeriesRichRelationalModelTests
         IString label = new PureString(id);
         IString source = new PureString(diagramId);
 
-        SeriesRichRelationalModel sut = new SeriesRichRelationalModel(id, diagramId, label, source);
+        SeriesRichRelationalModel sut = new SeriesRichRelationalModel(
+            id,
+            diagramId,
+            label,
+            source
+        );
 
         Assert.Equal(diagramId.GuidValue, sut.DiagramId.GuidValue);
     }
@@ -42,7 +52,12 @@ public sealed class SeriesRichRelationalModelTests
         IString label = new PureString(id);
         IString source = new PureString(diagramId);
 
-        SeriesRichRelationalModel sut = new SeriesRichRelationalModel(id, diagramId, label, source);
+        SeriesRichRelationalModel sut = new SeriesRichRelationalModel(
+            id,
+            diagramId,
+            label,
+            source
+        );
 
         Assert.Equal(label.TextValue, sut.Label.TextValue);
     }
@@ -55,7 +70,12 @@ public sealed class SeriesRichRelationalModelTests
         IString label = new PureString(id);
         IString source = new PureString(diagramId);
 
-        SeriesRichRelationalModel sut = new SeriesRichRelationalModel(id, diagramId, label, source);
+        SeriesRichRelationalModel sut = new SeriesRichRelationalModel(
+            id,
+            diagramId,
+            label,
+            source
+        );
 
         Assert.Equal(source.TextValue, sut.Source.TextValue);
     }
@@ -67,7 +87,12 @@ public sealed class SeriesRichRelationalModelTests
         IGuid diagramId = new PureGuid(Guid.NewGuid());
         IString label = new PureString(id);
         IString source = new PureString(diagramId);
-        ISeriesRichRelationalModel original = new SeriesRichRelationalModel(id, diagramId, label, source);
+        ISeriesRichRelationalModel original = new SeriesRichRelationalModel(
+            id,
+            diagramId,
+            label,
+            source
+        );
 
         SeriesRichRelationalModel sut = new SeriesRichRelationalModel(original);
 
@@ -81,7 +106,12 @@ public sealed class SeriesRichRelationalModelTests
         IGuid diagramId = new PureGuid(Guid.NewGuid());
         IString label = new PureString(id);
         IString source = new PureString(diagramId);
-        ISeriesRichRelationalModel original = new SeriesRichRelationalModel(id, diagramId, label, source);
+        ISeriesRichRelationalModel original = new SeriesRichRelationalModel(
+            id,
+            diagramId,
+            label,
+            source
+        );
 
         SeriesRichRelationalModel sut = new SeriesRichRelationalModel(original);
 
@@ -95,7 +125,12 @@ public sealed class SeriesRichRelationalModelTests
         IGuid diagramId = new PureGuid(Guid.NewGuid());
         IString label = new PureString(id);
         IString source = new PureString(diagramId);
-        ISeriesRichRelationalModel original = new SeriesRichRelationalModel(id, diagramId, label, source);
+        ISeriesRichRelationalModel original = new SeriesRichRelationalModel(
+            id,
+            diagramId,
+            label,
+            source
+        );
 
         SeriesRichRelationalModel sut = new SeriesRichRelationalModel(original);
 
@@ -109,7 +144,12 @@ public sealed class SeriesRichRelationalModelTests
         IGuid diagramId = new PureGuid(Guid.NewGuid());
         IString label = new PureString(id);
         IString source = new PureString(diagramId);
-        ISeriesRichRelationalModel original = new SeriesRichRelationalModel(id, diagramId, label, source);
+        ISeriesRichRelationalModel original = new SeriesRichRelationalModel(
+            id,
+            diagramId,
+            label,
+            source
+        );
 
         SeriesRichRelationalModel sut = new SeriesRichRelationalModel(original);
 
