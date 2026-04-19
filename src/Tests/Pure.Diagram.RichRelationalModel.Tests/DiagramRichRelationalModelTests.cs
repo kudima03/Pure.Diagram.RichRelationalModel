@@ -21,7 +21,7 @@ public sealed class DiagramRichRelationalModelTests
             typeInternalId,
             new PureString(typeInternalId)
         );
-        IEnumerable<ISeries> series = [];
+        IEnumerable<IDiagramSeries> series = [];
 
         DiagramRichRelationalModel sut = new DiagramRichRelationalModel(
             id,
@@ -47,7 +47,7 @@ public sealed class DiagramRichRelationalModelTests
             typeInternalId,
             new PureString(typeInternalId)
         );
-        IEnumerable<ISeries> series = [];
+        IEnumerable<IDiagramSeries> series = [];
 
         DiagramRichRelationalModel sut = new DiagramRichRelationalModel(
             id,
@@ -73,7 +73,7 @@ public sealed class DiagramRichRelationalModelTests
             typeInternalId,
             new PureString(typeInternalId)
         );
-        IEnumerable<ISeries> series = [];
+        IEnumerable<IDiagramSeries> series = [];
 
         DiagramRichRelationalModel sut = new DiagramRichRelationalModel(
             id,
@@ -99,7 +99,7 @@ public sealed class DiagramRichRelationalModelTests
             typeInternalId,
             new PureString(typeInternalId)
         );
-        IEnumerable<ISeries> series = [];
+        IEnumerable<IDiagramSeries> series = [];
 
         DiagramRichRelationalModel sut = new DiagramRichRelationalModel(
             id,
@@ -123,7 +123,7 @@ public sealed class DiagramRichRelationalModelTests
         IGuid typeInternalId = new PureGuid(Guid.NewGuid());
         IString typeName = new PureString(typeInternalId);
         IDiagramType type = new DiagramTypeRichRelationalModel(typeInternalId, typeName);
-        IEnumerable<ISeries> series = [];
+        IEnumerable<IDiagramSeries> series = [];
 
         DiagramRichRelationalModel sut = new DiagramRichRelationalModel(
             id,
@@ -149,7 +149,7 @@ public sealed class DiagramRichRelationalModelTests
             typeInternalId,
             new PureString(typeInternalId)
         );
-        IEnumerable<ISeries> series = [];
+        IEnumerable<IDiagramSeries> series = [];
 
         DiagramRichRelationalModel sut = new DiagramRichRelationalModel(
             id,
@@ -175,7 +175,7 @@ public sealed class DiagramRichRelationalModelTests
             typeInternalId,
             new PureString(typeInternalId)
         );
-        IEnumerable<ISeries> series = [];
+        IEnumerable<IDiagramSeries> series = [];
         IDiagramRichRelationalModel original = new DiagramRichRelationalModel(
             id,
             title,
@@ -202,7 +202,7 @@ public sealed class DiagramRichRelationalModelTests
             typeInternalId,
             new PureString(typeInternalId)
         );
-        IEnumerable<ISeries> series = [];
+        IEnumerable<IDiagramSeries> series = [];
         IDiagramRichRelationalModel original = new DiagramRichRelationalModel(
             id,
             title,
@@ -229,7 +229,7 @@ public sealed class DiagramRichRelationalModelTests
             typeInternalId,
             new PureString(typeInternalId)
         );
-        IEnumerable<ISeries> series = [];
+        IEnumerable<IDiagramSeries> series = [];
         IDiagramRichRelationalModel original = new DiagramRichRelationalModel(
             id,
             title,
@@ -256,7 +256,7 @@ public sealed class DiagramRichRelationalModelTests
             typeInternalId,
             new PureString(typeInternalId)
         );
-        IEnumerable<ISeries> series = [];
+        IEnumerable<IDiagramSeries> series = [];
         IDiagramRichRelationalModel original = new DiagramRichRelationalModel(
             id,
             title,
@@ -281,7 +281,7 @@ public sealed class DiagramRichRelationalModelTests
         IGuid typeInternalId = new PureGuid(Guid.NewGuid());
         IString typeName = new PureString(typeInternalId);
         IDiagramType type = new DiagramTypeRichRelationalModel(typeInternalId, typeName);
-        IEnumerable<ISeries> series = [];
+        IEnumerable<IDiagramSeries> series = [];
         IDiagramRichRelationalModel original = new DiagramRichRelationalModel(
             id,
             title,
@@ -308,7 +308,7 @@ public sealed class DiagramRichRelationalModelTests
             typeInternalId,
             new PureString(typeInternalId)
         );
-        IEnumerable<ISeries> series = [];
+        IEnumerable<IDiagramSeries> series = [];
         IDiagramRichRelationalModel original = new DiagramRichRelationalModel(
             id,
             title,
