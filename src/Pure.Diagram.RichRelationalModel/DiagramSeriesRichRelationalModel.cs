@@ -5,18 +5,18 @@ using Pure.Primitives.Abstractions.String;
 
 namespace Pure.Diagram.RichRelationalModel;
 
-public sealed record SeriesRichRelationalModel : ISeriesRichRelationalModel
+public sealed record DiagramSeriesRichRelationalModel : IDiagramSeriesRichRelationalModel
 {
-    public SeriesRichRelationalModel(ISeriesRichRelationalModel richModel)
+    public DiagramSeriesRichRelationalModel(IDiagramSeriesRichRelationalModel richModel)
         : this(
             richModel.Id,
             richModel.DiagramId,
-            (richModel as ISeriesRelationalModel).Label,
-            (richModel as ISeriesRelationalModel).Source
+            (richModel as IDiagramSeriesRelationalModel).Label,
+            (richModel as IDiagramSeriesRelationalModel).Source
         )
     { }
 
-    public SeriesRichRelationalModel(
+    public DiagramSeriesRichRelationalModel(
         IGuid id,
         IGuid diagramId,
         IString label,

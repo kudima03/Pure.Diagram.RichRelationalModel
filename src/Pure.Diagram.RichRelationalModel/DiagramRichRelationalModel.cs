@@ -25,7 +25,7 @@ public sealed record DiagramRichRelationalModel : IDiagramRichRelationalModel
         IString description,
         IGuid typeId,
         IDiagramType type,
-        IEnumerable<ISeries> series
+        IEnumerable<IDiagramSeries> series
     )
     {
         Id = id;
@@ -46,5 +46,5 @@ public sealed record DiagramRichRelationalModel : IDiagramRichRelationalModel
 
     public IDiagramType Type { get; }
 
-    public IEnumerable<ISeries> Series { get; }
+    public IEnumerable<IDiagramSeries> Series { get; }
 }
